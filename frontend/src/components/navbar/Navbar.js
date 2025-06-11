@@ -158,9 +158,11 @@ function ResponsiveAppBar() {
             : (
                 <Box>
                     <Button variant='contained'>
-                      <Link to='/login' style = {{ colour}}>Login</Link></Button>
+                    <Link to='/login' style={{ color: 'white', textDecoration: 'none' }}>Login</Link>
+                    </Button>
                     <Button variant='outlined' color='white'>
-                      <Link to='/register'>Register</Link></Button>
+                    <Link to='/register' style={{ color: 'white', textDecoration: 'none' }}>Register</Link>
+                    </Button>
                 </Box>
             )
           }
